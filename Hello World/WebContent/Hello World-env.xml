@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<workquikrAppProperties>
+    <name>Hello World</name>
+    <general>
+        <category>Test</category>
+        <packageName>com.hexaware.sample</packageName>
+        <frameworkApiVersion>cordova-4.0.0</frameworkApiVersion>
+        <buildType>major</buildType>
+        <welcomeFile>index.html</welcomeFile>
+        <serverHost>https://mobilehro.singpost.com:8060</serverHost>
+        <buildOnRemote>false</buildOnRemote>
+        <directUpdate>true</directUpdate>
+        <locationService>false</locationService>
+    </general>
+    <platforms>
+        <android>
+            <generate>true</generate>
+            <gradle>false</gradle>
+        </android>
+        <ios>
+            <generate>false</generate>
+            <iosMobileProvisioningPath>/Volumes/SystemHDD/WorkQuikr/Certificates/SingPostNovember2015/SingPostHRO.mobileprovision</iosMobileProvisioningPath>
+            <iosLicenseName>iPhone Distribution: Singapore Post Limited</iosLicenseName>
+            <iosDeviceSdk>iphoneos8.2</iosDeviceSdk>
+        </ios>
+        <windowsphone8>
+            <generate>false</generate>
+            <GUID>{9b97f389-0544-453e-8e57-cb5780e90ab8}</GUID>
+        </windowsphone8>
+    </platforms>
+    <notification>
+        <enable>true</enable>
+        <iosApnsCertpath></iosApnsCertpath>
+        <iosApnsCertpass></iosApnsCertpass>
+        <GCMSenderId>******</GCMSenderId>
+        <androidApikey></androidApikey>
+    </notification>
+    <security>
+        <remoteEnablement>none</remoteEnablement>
+        <locationBasedAccess>false</locationBasedAccess>
+        <authentication>
+            <type>none</type>
+            <onetimeSignOn>false</onetimeSignOn>
+            <successPage></successPage>
+        </authentication>
+    </security>
+    <devicePermissions>
+        <accelerometer>false</accelerometer>
+        <capture>false</capture>
+        <contacts>false</contacts>
+        <location>false</location>
+        <notification>false</notification>
+        <camera>false</camera>
+        <compass>false</compass>
+        <file>false</file>
+        <media>false</media>
+    </devicePermissions>
+</workquikrAppProperties>
